@@ -1,7 +1,8 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import "../styles/footer.css";
+import EmailIcon from '@mui/icons-material/Email';
+import "../styles/Footer.css";
 
 function Footer() {
   const gitHubRedirect = () => {
@@ -20,6 +21,8 @@ function Footer() {
         <GitHubIcon onClick={gitHubRedirect}/>
         <LinkedInIcon onClick={linkedInRedirect}/>
         <InstagramIcon onClick={instagramRedirect}/>
+         {/* need to figure out what to do with click on email */}
+        <EmailIcon />
       </div>
       <p> &copy; 2023 Jonathan Wofford</p>
     </div>

@@ -19,7 +19,7 @@ function Navigation() {
           <ReorderIcon />
         </button>
       </div>
-      <div className="links">
+      <div className="links ">
         <NavLink exact to="/">
           Home
         </NavLink>
