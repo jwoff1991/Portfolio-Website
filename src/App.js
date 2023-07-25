@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom/";
 import Home from './components/Home'
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import './index.css'
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/experience" element={<Experience />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
