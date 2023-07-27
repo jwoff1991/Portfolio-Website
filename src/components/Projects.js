@@ -3,10 +3,10 @@ import '../styles/Projects.css'
 import { ProjectList } from "../projectData/ProjectList";
 
 function Projects() {
-  const Projects = ProjectList.map(project => {
+  const Projects = ProjectList.map((project) => {
 
     return (
-      <ProjectItem name={project.name} image={project.image}/>
+      <ProjectItem  id={project.id} name={project.name} image={project.image}/>
     )
   })
 
