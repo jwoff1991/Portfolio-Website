@@ -2,19 +2,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
+import { Link } from 'react-router-dom'
 import "../styles/Home.css";
 
 function Home() {
-  const gitHubRedirect = () => {
-    window.location.replace("https://github.com/jwoff1991");
-  };
-  const linkedInRedirect = () => {
-    window.location.replace("https://www.linkedin.com/in/jonathanbwofford/");
-  };
 
-  const instagramRedirect = () => {
-    window.location.replace("https://www.instagram.com/jwoff91/");
-  };
   return (
     <div className="home">
       <div className="about">
@@ -26,11 +18,11 @@ function Home() {
             A Fullstack Software Developer with a passion for learning and
             creating.
           </p>
-          <GitHubIcon onClick={gitHubRedirect} />
-          <LinkedInIcon onClick={linkedInRedirect} />
-          <InstagramIcon onClick={instagramRedirect} />
+          <Link to="https://github.com/jwoff1991" target="_blank" rel="noreferrer"> <GitHubIcon /></Link>
+        <Link to="https://www.linkedin.com/in/jonathanbwofford/" target="_blank" rel="noreferrer"><LinkedInIcon /></Link>
+        <Link to="https://www.instagram.com/jwoff91/" target="_blank" rel="noreferrer"><InstagramIcon /></Link>
           {/* need to figure out what to do with click on email */}
-          <EmailIcon />
+          <Link ><EmailIcon /></Link>
         </div>
       </div>
       <div className="skills">
