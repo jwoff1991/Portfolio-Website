@@ -30,11 +30,11 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Frontend-end</h2>
-            <span>ReactJS, Redux, HTML, CSS, MaterialUI</span>
+            <span>ReactJS, Redux, HTML, CSS</span>
             <h2>Backend-end</h2>
-            <span>EspressJS, SQL, Postman, PostgreSQL</span>
+            <span>EspressJS, SQL, Postman, Postgres, Docker, Flask, AWS</span>
             <h2>Languages</h2>
-            <span>Javascript</span>
+            <span>Javascript, Python</span>
           </li>
         </ol>
       </div>
