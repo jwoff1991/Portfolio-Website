@@ -29,13 +29,15 @@ function ProjectDisplay({ image, name }) {
           <b>Skills:</b> {project.skills}
         </h1>
         <h2>{project.details}</h2>
-        <Link
-          to={project.gitHub}
-          name="Check out my sourcode for this project!"
-        >
-          <GitHubIcon />
-        </Link>
-        {externalLink}
+        <div>
+          <Link
+            to={project.gitHub}
+            name="Check out my sourcode for this project!"
+          >
+            <GitHubIcon />
+          </Link>
+          {externalLink}
+        </div>
       </div>
     );
   }
