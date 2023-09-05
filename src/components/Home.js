@@ -32,7 +32,7 @@ function Home() {
             <h2>Frontend-end</h2>
             <span>ReactJS, Redux, HTML, CSS</span>
             <h2>Backend-end</h2>
-            <span>EspressJS, SQL, Postman, Postgres, Docker, Flask, AWS</span>
+            <span>EspressJS, SQL, Postman, Postgres, Docker, Flask, SQAlchemy, AWS</span>
             <h2>Languages</h2>
             <span>Javascript, Python</span>
           </li>
