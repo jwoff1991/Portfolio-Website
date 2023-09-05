@@ -1,11 +1,12 @@
 import Firstwebsite from '../assets/firstwebsite.png'
 import flickerClone from '../assets/flickerclone.png'
+import errBnBwebsite from '../assets/errBnBwebsite.png'
 
 export const ProjectList = [
   {
     id: 0,
     name: "ErrBnB",
-    image: null,
+    image: errBnBwebsite,
     alt: "null image",
     skills:
       "Javascript, SQL, PostgreSQL, React, Redux, HTML, CSS, Postman, Node",
