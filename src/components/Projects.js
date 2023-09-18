@@ -6,10 +6,10 @@ function Projects() {
   const Projects = ProjectList.map((project) => {
 
     return (
-      <ProjectItem  id={project.id} name={project.name} image={project.image}/>
+      <ProjectItem  key={project.id} id={project.id} name={project.name} image={project.image}/>
     )
   })
-
+  console.log(Projects)
   return (
     <div className='projects'>
       <h1>My Personal Projects</h1>

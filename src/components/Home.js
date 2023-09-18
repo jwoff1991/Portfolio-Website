@@ -22,7 +22,7 @@ function Home() {
         <Link to="https://www.linkedin.com/in/jonathanbwofford/" name='Connect with me on LinkedIn!' target="_blank" rel="noreferrer"><LinkedInIcon /></Link>
         <Link to="https://www.instagram.com/jwoff91/" name='Add me on Instagram!' target="_blank" rel="noreferrer"><InstagramIcon /></Link>
           {/* need to figure out what to do with click on email */}
-          <Link ><EmailIcon /></Link>
+          {/* <Link ><EmailIcon /></Link> */}
         </div>
       </div>
       <div className="skills">
@@ -30,7 +30,7 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Frontend-end</h2>
-            <span>ReactJS, Redux, HTML, CSS</span>
+            <span>ReactJS/Redux, HTML, CSS</span>
             <h2>Backend-end</h2>
             <span>EspressJS, SQL, Postman, Postgres, Docker, Flask, SQAlchemy, AWS</span>
             <h2>Languages</h2>

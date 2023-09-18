@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { ProjectList } from "../projectData/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from '@mui/icons-material/Language';
+import './projectItem.css'
 // import LinkIcon from '@mui/icons-material/Link';
 
 
