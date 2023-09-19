@@ -14,7 +14,7 @@ function Footer() {
         <Link to="https://www.linkedin.com/in/jonathanbwofford/" name="Connect with me on LinkedIn!" target="_blank" rel="noreferrer"><LinkedInIcon /></Link>
         <Link to="https://www.instagram.com/jwoff91/" name="Add me on Instagram!" target="_blank" rel="noreferrer"><InstagramIcon /></Link>
          {/* need to figure out what to do with click on email */}
-        <Link ><EmailIcon /></Link>
+        {/* <Link ><EmailIcon /></Link> */}
       </div>
       <p> &copy; 2023 Jonathan Wofford</p>
     </div>

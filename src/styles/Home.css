@@ -36,8 +36,6 @@
   }
 
   .skills {
-    font-size: 35px;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,6 +54,32 @@
   .list span {
     font-size: 20px;
   }
+
+  .homepage-email {
+    margin-top: 10px
+  }
+  .about-me-and-skills {
+    border: solid #3e497a 2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 25px 20px
+  }
+
+  .Typist .Cursor {
+    display: inline-block; }
+    .Typist .Cursor--blinking {
+      opacity: 0;
+      /* animation: blink .75s linear; }
+
+  @keyframes blink {
+    0% {
+      opacity: 1; }
+    50% {
+      opacity: 0; }
+    100% {
+      opacity: 1; }  */
+    }
+
 
   @media only screen and (max-width: 600px) {
     .about h2 {
