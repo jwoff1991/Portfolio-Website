@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    /* color: #3e497a; */
   }
 
   .about-section-with-image {
@@ -22,7 +22,7 @@
     font-size: 75px;
   }
   .letsbuild-text{
-    padding-right: 11px
+    padding-right: 9px
   }
   .about-lets-build {
     width: 600px;

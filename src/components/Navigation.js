@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import '../styles/Navbar.css'
 import ReorderIcon from "@mui/icons-material/Reorder";
 import { useEffect, useState } from "react";
@@ -25,6 +25,7 @@ function Navigation() {
         </NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/experience">Experience</NavLink>
+        <Link to="https://drive.google.com/file/d/1JbxFCcK3AHcfl-A-0HYi1CzfKv9b6FYP/view?usp=drive_link" target='_blank' >Resume</Link>
       </div>
     </div>
   );

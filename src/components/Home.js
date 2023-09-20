@@ -14,15 +14,14 @@ function Home() {
           <div className="about-hello">Hello, I'm John Wofford </div>
           <div className="prompt">
             <div className="about-lets-build">
-              <div className='letsbuild-text'>Lets build something</div>
-
+              <div className="letsbuild-text">Lets build something</div>
               <Typewriter
                 words={[
                   " facinating",
                   " unique",
                   " inspiring",
                   " creative",
-                  " together!",
+                  " TOGETHER!",
                 ]}
                 loop={1}
                 typeSpeed={70}
@@ -42,22 +41,27 @@ function Home() {
           <p>
             I am a former tech recruiter turned software engineer. After earning
             my Marketing degree from Cal State Fullerton, I found myself in the
-            world of recruiting. Quickly gaining traction in this career, I
-            found myself attract to the tech sector and decided to put my focus
-            there. There is where I found my secret passion for coding, and had
-            always why I didnt do this carrer myself.
+            world of recruiting. Quickly gaining traction, I found myself
+            attracted to the tech sector and decided to put my focus there.
+            There is where I found my secret passion for coding, and had always
+            asked why I didnt do this myself.
           </p>
           <p>
             Fast-forward to the beginning of 2023. Tech-layoffs were in full
             force, the market was slowing, and my whole department found
-            themselves in a similar to so many others in the industry. This was
-            the fire I needed and I instantly enrolled in a course to start my
-            career as a Software Engineer.
+            ourselves in a similar position as so many others in the industry. A
+            blessing in disguise, this was the fire I needed and I instantly enrolled
+            in a course to start my career as a Software Engineer.
           </p>
           <p>
-            Over the course of this program I feel as I have grown personally
-            and professionally.
+            Over the course of this program I have grown personally and
+            professionally. I have learned about the fustrations and the joys of
+            programming. I have leanred best practices, how to research new
+            languages, and how to work with a team. I have learned that I am a
+            problem solver, a team player, and a creator. I am proud to say that
+            I am a Software Engineer.
           </p>
+          <p>Lets get out there and create something TOGETHER!</p>
         </div>
         <div className="skills">
           <div className="skills-heading">Skills</div>
