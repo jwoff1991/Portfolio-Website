@@ -1,39 +1,33 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { Tooltip } from "@mui/material";
 import { Link } from 'react-router-dom'
-import Typist from "react-typist";
+import { Typewriter } from 'react-simple-typewriter'
 import "../styles/Home.css";
 
 function Home() {
-  let wordsArray = [
-    "facinating",
-    "unique",
-    "groundbreaking",
-    "creative",
-    "together",
-  ];
-
-
-
   return (
     <div className="home">
       <div className="about">
-        <h2>Hello, my name is John </h2>
+        <h2>Hello, I'm John Wofford </h2>
 
         <div className="prompt">
           <p>
-            <Typist className="MyTypist" curser={0}>
-              <span>Lets create something facinating</span>
-              <Typist.Backspace count={10} delay={1200} />
-              <span>unique</span>
-              <Typist.Backspace count={6} delay={1200} />
-              <span>groundbreaking</span>
-              <Typist.Backspace count={14} delay={1200} />
-              <span>creative</span>
-              <Typist.Backspace count={8} delay={1200} />
-              <span>together!</span>
-            </Typist>
+
+              <span>Lets build something</span>{' '}
+
+            <Typewriter
+            words={['facinating', 'unique', 'inspiring', 'creative', 'together!']}
+            loop={1}
+            // cursor='false'
+            // cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1200}
+            // onLoopDone={handleDone}
+            // onType={handleType}
+          />
           </p>
           <Link
             to="https://github.com/jwoff1991"
@@ -42,15 +36,20 @@ function Home() {
             rel="noreferrer"
           >
             {" "}
-            <GitHubIcon />
+            <Tooltip title="My Github">
+              <GitHubIcon />
+            </Tooltip>
           </Link>
+
           <Link
             to="https://www.linkedin.com/in/jonathanbwofford/"
             name="Connect with me on LinkedIn!"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <Tooltip title="My LinkedIn">
+              <LinkedInIcon />
+            </Tooltip>
           </Link>
           <Link
             to="https://www.instagram.com/jwoff91/"
@@ -58,7 +57,9 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <InstagramIcon />
+            <Tooltip title="My Instagram ">
+              <InstagramIcon />
+            </Tooltip>
           </Link>
 
           {/* need to figure out what to do with click on email */}
