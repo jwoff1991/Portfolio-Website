@@ -1,7 +1,7 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { Tooltip, appBarClasses } from "@mui/material";
+import { Tooltip } from "@mui/material";
 import "../styles/Footer.css";
 import { Link } from 'react-router-dom'
 
