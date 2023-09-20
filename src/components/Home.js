@@ -9,32 +9,32 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className="home">
-      <div className="about">
-        <h2>Hello, I'm John Wofford </h2>
+      <div className="about-section-with-image">
+        <div className="left-side-of-about">
+          <div className="about-hello">Hello, I'm John Wofford </div>
+          <div className="prompt">
+            <div className="about-lets-build">
+              <div className='letsbuild-text'>Lets build something</div>
 
-        <div className="prompt">
-          <p>
-            <span>Lets build something</span>{" "}
-            <Typewriter
-              words={[
-                "facinating",
-                "unique",
-                "inspiring",
-                "creative",
-                "together!",
-              ]}
-              loop={1}
-              // cursor='false'
-              // cursorStyle='_'
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1200}
-              // onLoopDone={handleDone}
-              // onType={handleType}
-            />
-          </p>
+              <Typewriter
+                words={[
+                  " facinating",
+                  " unique",
+                  " inspiring",
+                  " creative",
+                  " together!",
+                ]}
+                loop={1}
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1200}
+              />
+            </div>
+          </div>
         </div>
-        {/* <div className="homepage-email">Email: jonathanbrodie91@gmail.com</div> */}
+        <div className="right-side-of-about">
+          <img src="images/johncode.png" alt="john yelling code" />
+        </div>
       </div>
       <div className="about-me-and-skills">
         <div className="about-me">
