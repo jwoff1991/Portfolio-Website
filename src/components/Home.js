@@ -14,71 +14,59 @@ function Home() {
 
         <div className="prompt">
           <p>
-
-              <span>Lets build something</span>{' '}
-
+            <span>Lets build something</span>{" "}
             <Typewriter
-            words={['facinating', 'unique', 'inspiring', 'creative', 'together!']}
-            loop={1}
-            // cursor='false'
-            // cursorStyle='_'
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1200}
-            // onLoopDone={handleDone}
-            // onType={handleType}
-          />
+              words={[
+                "facinating",
+                "unique",
+                "inspiring",
+                "creative",
+                "together!",
+              ]}
+              loop={1}
+              // cursor='false'
+              // cursorStyle='_'
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1200}
+              // onLoopDone={handleDone}
+              // onType={handleType}
+            />
           </p>
-          <Link
-            to="https://github.com/jwoff1991"
-            name="Check out my code!"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            <Tooltip title="My Github">
-              <GitHubIcon />
-            </Tooltip>
-          </Link>
-
-          <Link
-            to="https://www.linkedin.com/in/jonathanbwofford/"
-            name="Connect with me on LinkedIn!"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Tooltip title="My LinkedIn">
-              <LinkedInIcon />
-            </Tooltip>
-          </Link>
-          <Link
-            to="https://www.instagram.com/jwoff91/"
-            name="Add me on Instagram!"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Tooltip title="My Instagram ">
-              <InstagramIcon />
-            </Tooltip>
-          </Link>
-
-          {/* need to figure out what to do with click on email */}
-          {/* <Link ><EmailIcon /></Link> */}
         </div>
-        <div className="homepage-email">Email: jonathanbrodie91@gmail.com</div>
+        {/* <div className="homepage-email">Email: jonathanbrodie91@gmail.com</div> */}
       </div>
       <div className="about-me-and-skills">
         <div className="about-me">
-          This will be the section I place my about me in
+          Who am I?
+          <p>
+            I am a former tech recruiter turned software engineer. After earning
+            my Marketing degree from Cal State Fullerton, I found myself in the
+            world of recruiting. Quickly gaining traction in this career, I
+            found myself attract to the tech sector and decided to put my focus
+            there. There is where I found my secret passion for coding, and had
+            always why I didnt do this carrer myself.
+          </p>
+          <p>
+            Fast-forward to the beginning of 2023. Tech-layoffs were in full
+            force, the market was slowing, and my whole department found
+            themselves in a similar to so many others in the industry. This was
+            the fire I needed and I instantly enrolled in a course to start my
+            career as a Software Engineer.
+          </p>
+          <p>
+            Over the course of this program I feel as I have grown personally
+            and professionally.
+          </p>
         </div>
         <div className="skills">
           <div className="skills-heading">Skills</div>
           <div className="list-for-frontend">
-            <div className="title">Frontend</div>
+            <div className="skills-title">Frontend</div>
             <div className="languages">ReactJS/Redux, HTML, CSS</div>
           </div>
           <div className="list-for-backend">
-            <div className="title">Backend</div>
+            <div className="skills-title">Backend</div>
             <div className="languages">
               Flask, Postgres, EspressJS, SQL, Docker, SQAlchemy, AWS
             </div>

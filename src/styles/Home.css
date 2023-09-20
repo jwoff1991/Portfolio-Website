@@ -29,6 +29,24 @@
     font-size: 30px;
     margin-top: 50px;
   }
+
+  .about-me-and-skills {
+    border: solid #3e497a 2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 25px 20px;
+  }
+
+
+  .about-me{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #3e497a
+  }
+
+  .skills-heading {
+    font-size: 20px;
+  }
   .prompt svg {
     font-size: 60px;
     margin: 5px;
@@ -37,48 +55,12 @@
 
   .skills {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    justify-content: baseline;
+    align-items: baseline;
+    border: 2px solid #3e497a;
+    text-align: left !important;
   }
-
-  .skills h1 {
-    color: #3e497a;
-  }
-
-  .skills .list {
-    list-style: none;
-    width: 60%;
-  }
-
-  .list span {
-    font-size: 20px;
-  }
-
-  .homepage-email {
-    margin-top: 10px
-  }
-  .about-me-and-skills {
-    border: solid #3e497a 2px;
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 30px 25px 20px
-  }
-
-  .Typist .Cursor {
-    display: inline-block; }
-    .Typist .Cursor--blinking {
-      opacity: 0;
-      /* animation: blink .75s linear; }
-
-  @keyframes blink {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; }  */
-    }
 
 
   @media only screen and (max-width: 600px) {
@@ -92,14 +74,10 @@
       width: 80%;
     }
 
-    .skills {
+    .about-me-and-skills {
       text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-
-    .skills h2 {
-      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
