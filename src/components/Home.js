@@ -9,7 +9,7 @@ function Home() {
       <div className="about-section-with-image">
         <div className="left-side-of-about">
           <div className="about-hello">Hello, I'm John Wofford</div>
-          <div className="software-engineer">//Software Engineer</div>
+          <div className="software-engineer">{'//'}Software Engineer</div>
           <div className="prompt">
             <div className="about-lets-build">
               <div className="letsbuild-text">Lets build something</div>
