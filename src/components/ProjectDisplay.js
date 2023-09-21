@@ -16,7 +16,7 @@ function ProjectDisplay({ image, name }) {
     let externalLink;
     if(project && project.link) {
       externalLink =
-        <Link to={project.link} name="Check out the live site!">
+        <Link to={project.link} name="Check out the live site!" target="_blank">
           <LanguageIcon />
         </Link>
     }
@@ -30,6 +30,7 @@ function ProjectDisplay({ image, name }) {
           <Link
             to={project.gitHub}
             name="Check out my sourcode for this project!"
+            target="_blank"
           >
             <Tooltip title="Project Repo">
               <GitHubIcon />
