@@ -42,7 +42,7 @@ function Footer() {
         </Link>
       </div>
       <div className="homepage-email">Email: jonathanbrodie91@gmail.com</div>
-      <p> &copy; 2023 John Wofford</p>
+      {/* <p> &copy; 2023 John Wofford</p> */}
     </div>
   );
 }

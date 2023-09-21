@@ -25,7 +25,6 @@ function Navigation() {
         </NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/experience">Experience</NavLink>
-        <Link to="https://drive.google.com/file/d/1JbxFCcK3AHcfl-A-0HYi1CzfKv9b6FYP/view?usp=drive_link" target='_blank' >Resume</Link>
       </div>
     </div>
   );
