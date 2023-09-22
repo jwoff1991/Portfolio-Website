@@ -1,8 +1,29 @@
-.projectItem {
-    margin-top: 50px;
+.project {
+    margin-top: 15%
 }
 
+.project > img {
+    max-height: 400px !important;
+}
 
-.project {
-    margin-top: 100px
+.project-display-links {
+    padding: 20px
+}
+
+.project-display-skills {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.project-display-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 250px;
+}
+.project-display-details {
+    font-size: 25px;
+    text-align: left;
+    width: 75%;
 }

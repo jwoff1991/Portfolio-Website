@@ -14,7 +14,7 @@ export const ProjectList = [
       "Javascript, Python, Flask, SQAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/jwoff1991/OverLoad",
     details:
-      "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. THis was by far one of my favorite because I was able to build the full project on my own and really helped me solidify a lot of the concept I have been taught throughout the course.",
+      "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. This was by far one of my favorite because I was able to build the full project on my own and it really helped me solidify a lot of the concept I have been taught throughout the course.",
     link: "https://aacapstoneproj.onrender.com/"
   },
   {
@@ -48,7 +48,7 @@ export const ProjectList = [
     alt: "flicker website front page clone",
     skills: "HTML/CSS",
     gitHub: "https://github.com/jwoff1991/flickr-clone",
-    details: 'This was a nose-dive into css! I had a lot of fun trying to figuyre out the differnet ways css worked, especially with itself. It was also challenging but made me realize that I really do like codinbg and figureing out how things works on a computer. It was a huge astonishment when I went back and looked at my first webpage too! Woo what a differnece.',
+    details: 'This was a nose-dive into css! I had a lot of fun trying to figure out the differnet ways css worked, especially with itself. It was also challenging but made me realize that I really do like codinbg and figureing out how things works on a computer. It was a huge astonishment when I went back and looked at my first webpage too! Woo what a differnece.',
   },
   {
     id: 4,
