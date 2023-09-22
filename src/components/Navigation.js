@@ -24,7 +24,7 @@ function Navigation() {
           Home
         </NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/experience">Experience</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </div>
     </div>
   );

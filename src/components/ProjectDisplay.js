@@ -3,7 +3,7 @@ import { ProjectList } from "../projectData/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 import LanguageIcon from '@mui/icons-material/Language';
-import "./projectItem.css";
+import "../styles/projectItem.css";
 
 function ProjectDisplay({ image, name }) {
   const { id } = useParams();

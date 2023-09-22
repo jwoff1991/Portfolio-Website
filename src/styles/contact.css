@@ -1,0 +1,11 @@
+.contact-div {
+    height: 65.9vh;
+}
+
+
+.contat-socials-div {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
