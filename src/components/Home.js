@@ -111,7 +111,7 @@ function Home() {
           </p>
           <p>Lets get out there and create something TOGETHER!</p>
           <Link
-            to="https://drive.google.com/file/d/1JbxFCcK3AHcfl-A-0HYi1CzfKv9b6FYP/view?usp=drive_link"
+            to="https://docs.google.com/document/d/e/2PACX-1vQkdh8XVHxCveXincec2iaGEO7Ww4kPvDDgu-Gx4de0SzZpbc8v2ohBsmDWdKR-XwLIzMzRcl9pmnBX/pub"
             target="_blank"
           >
             Resume
