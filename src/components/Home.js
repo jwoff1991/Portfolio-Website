@@ -9,7 +9,7 @@ function Home() {
       <div className="about-section-with-image">
         <div className="left-side-of-about">
           <div className="about-hello">Hello, I'm John Wofford</div>
-          <div className="software-engineer">{'//'}Software Engineer</div>
+          <div className="software-engineer">{"//"}Software Engineer</div>
           <div className="prompt">
             <div className="about-lets-build">
               <div className="letsbuild-text">Lets build something</div>
@@ -87,29 +87,28 @@ function Home() {
         <div className="about-me">
           Who am I?
           <p>
-            I am a former tech recruiter turned software engineer. After earning
-            my Marketing degree from Cal State Fullerton, I found myself in the
-            world of recruiting. Quickly gaining traction, I found myself
-            attracted to the tech sector and decided to put my focus there.
-            There is where I found my secret passion for coding, and had always
-            asked why I didnt do this myself.
+            I transitioned from tech recruiting to becoming a software engineer
+            after earning my Marketing degree from Cal State Fullerton.
+            Initially drawn to the tech sector, I discovered my passion for
+            coding and wondered why I hadn't pursued it sooner.
           </p>
           <p>
-            Fast-forward to the beginning of 2023. Tech-layoffs were in full
-            force, the market was slowing, and my whole department found
-            ourselves in a similar position as so many others in the industry. A
-            blessing in disguise, this was the fire I needed and I instantly
-            enrolled in a course to start my career as a Software Engineer.
+            In early 2023, amidst widespread tech layoffs and a slowing market,
+            my department, like many others, faced a similar situation. This
+            turned out to be a blessing in disguise, igniting the motivation I
+            needed to immediately enroll in a course to kickstart my career as a
+            Software Engineer.
           </p>
           <p>
-            Over the course of this program I have grown personally and
-            professionally. I have learned about the fustrations and the joys of
-            programming. I have learned best practices, how to research new
-            languages, and how to work with a team. I have learned that I am a
-            problem solver, a team player, and a creator. I am proud to say that
-            I am a Software Engineer.
+            Throughout this program, I've experienced substantial personal and
+            professional growth. I've encountered both the challenges and
+            rewards of programming, learned best practices, mastered the art of
+            researching new languages, and honed my teamwork skills. I've come
+            to realize that I'm a natural problem solver, a collaborative team
+            player, and a creative force. I'm proud to say that I am a Software
+            Engineer.
           </p>
-          <p>Lets get out there and create something TOGETHER!</p>
+          <p>Lets get out there and build something TOGETHER!</p>
           <Link
             to="https://docs.google.com/document/d/e/2PACX-1vQkdh8XVHxCveXincec2iaGEO7Ww4kPvDDgu-Gx4de0SzZpbc8v2ohBsmDWdKR-XwLIzMzRcl9pmnBX/pub"
             target="_blank"
