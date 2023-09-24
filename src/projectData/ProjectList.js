@@ -57,6 +57,6 @@ export const ProjectList = [
     alt: "Picture of front page of my first website",
     skills: "HTML, CSS",
     gitHub: "https://github.com/jwoff1991/firstwebsite",
-    details: "I wanted to include this project as it was the first website I had coded. I think it really demonstrates how much I have learned and how far I have come in just a few short months. THis is just the beginning of my career and I have a lot more to learn but I am excited about where it will take me! ",
+    details: "I wanted to include this project as it was the first website I had coded. I think it really demonstrates how much I have learned and how far I have come in just a few short months. This is just the beginning of my career and I have a lot more to learn but I am excited about where it will take me! ",
   },
 ];
