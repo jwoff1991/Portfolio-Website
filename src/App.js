@@ -6,6 +6,10 @@ import './index.css'
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
 import Contact from "./components/Contact";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-M5SB9301K5"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
