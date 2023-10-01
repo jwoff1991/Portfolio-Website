@@ -38,7 +38,7 @@ export const ProjectList = [
       "Javascript, SQL, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/jwoff1991/API-project-ErrBnB",
     details:
-      "Fullstack solo project. This is my Airbnb clone, and was my first full project after learning about wsoftware engineering. It was challenging because everything seamed so fresh at the time. But I was able to go back and refactor a lot of the code for optimization and also add another feature. Currently, you can Create, Book, and Review spots.  ",
+      "Fullstack solo project. This is my Airbnb clone, and was my first full project after learning about software engineering. It was challenging because everything seamed so fresh at the time. But I was able to go back and refactor a lot of the code for optimization and also add other features. Currently, you can Create, Book, and Review spots.  ",
     link: "https://errbnb.onrender.com/"
   },
   {
