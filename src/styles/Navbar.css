@@ -68,7 +68,7 @@
     .toggleButton {
       display: flex;
     }
-    #close a {
+    #closed .links {
       display: none;
     }
     /* .links {
@@ -84,6 +84,7 @@
     .hiddenLinks {
       display: none;
     }
+
 
     #open {
       height: 100px;
