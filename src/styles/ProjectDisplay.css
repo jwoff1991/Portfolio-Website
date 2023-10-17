@@ -25,3 +25,14 @@
     font-size: 60px;
     color: #3e497a;
   } */
+
+
+  .project{
+    margin-top: 150px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .project-image {
+      width: 100vw;
+    }
+  }
