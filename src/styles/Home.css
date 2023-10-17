@@ -136,8 +136,12 @@
       display: none;
     }
 
+    .about-me {
+      width: 80vw
+    }
+
     .left-side-of-about {
-      margin-left: 80px;
+      margin-left: 50px;
     }
     .about-lets-build {
       font-size: 20px !important;
