@@ -37,4 +37,9 @@
     .project-image {
         width: 90vw !important;
     }
+
+    .project-display-skills {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
   }
