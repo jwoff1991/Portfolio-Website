@@ -11,7 +11,7 @@ export const ProjectList = [
     image: OverLoadhomepage,
     alt: "Frontpage of AWN website",
     skills:
-      "Javascript, Python, Flask, SQAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
+      "Javascript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/jwoff1991/OverLoad",
     details:
       "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. This was by far one of my favorite because I was able to build the full project on my own and it really helped me solidify a lot of the concept I have been taught throughout the course.",
@@ -23,7 +23,7 @@ export const ProjectList = [
     image: AWNhomepage,
     alt: "Frontpage of AWN website",
     skills:
-      "Javascript, Python, Flask, SQAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
+      "Javascript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/SonQHoang/Apocalypse-Weather-Now",
     details:
       "Fullstack group project. As a team we developed our website from scratch utilizing our skills in JS frontend and Python backend. The site has 3 full and 2 partial CRUD features. This was exciting becasue we were building something from scratch from an idea that we had. It was fun to build something through till production after it started as just an idea.",
