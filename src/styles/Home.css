@@ -142,6 +142,9 @@
     .about-lets-build {
       font-size: 20px !important;
     }
+    .home {
+      overflow-x: hidden;
+    }
   }
 
   @media only screen and (max-width: 600px) {
