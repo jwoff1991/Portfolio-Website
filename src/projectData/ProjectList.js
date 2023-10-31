@@ -14,7 +14,7 @@ export const ProjectList = [
     skills:
       "Javascript, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/TobiasSchaeuble-EH/LunchHeroes",
-    details: "BaselHack 2023 project. This was a 48 hour hackathon where we were given a challenge to solve. Our challenge was to create a website that would help people find collagues within the orginization to get together and have lunch. We were able to create a website that would allow users to just click a button and be matched up with someone else from the orginization that was looking to meet other. This was a great experience because it was my first hackathon and I was able to work with a team of 9 other people. As the frontned lead, I worked with desgin to take wireframes from concept to code, and with backend to ensure the data was retrieved and displayed correctly.",
+    details: "BaselHack 2023 project. This was a 48 hour hackathon where we were given a challenge to solve. Our challenge was to create a website that would help people find collagues within the orginization to get together and have lunch. We were able to create a website that would allow users to just click a button and be matched up with someone else from the orginization that was looking to meet other. This was a great experience because it was my first hackathon and I was able to work with a team of 9 other people. As the frontend lead, I worked with desgin to take wireframes from concept to code, and with backend to ensure the data was retrieved and displayed correctly. Also configured store to ensure state management.",
   },
   {
     id: 1,
