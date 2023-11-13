@@ -4,12 +4,13 @@ import errBnBwebsite from '../assets/errBnBwebsite.png'
 import AWNhomepage from '../assets/AWNhomepage.png'
 import OverLoadhomepage from '../assets/overLoadhomepage.png.png'
 import LunchHero from '../assets/lunchHeroHomepage.png'
+import HacknLead from '../assets/actualImpactPulshDash.png'
 
 export const ProjectList = [
   {
     id: 0,
     name: "ImpactPulse",
-    image: LunchHero,
+    image: HacknLead,
     alt: "Dashboard for ImpactPulse",
     skills:
       "Javascript, React, MaterialUI, HTML, CSS",
