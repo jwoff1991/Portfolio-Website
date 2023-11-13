@@ -8,6 +8,16 @@ import LunchHero from '../assets/lunchHeroHomepage.png'
 export const ProjectList = [
   {
     id: 0,
+    name: "ImpactPulse",
+    image: LunchHero,
+    alt: "Dashboard for ImpactPulse",
+    skills:
+      "Javascript, React, MaterialUI, HTML, CSS",
+    github: 'https://github.com/alexrollings/women_plusplus',
+    details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
+  },
+    {
+    id: 1,
     name: "Lunch Hero",
     image: LunchHero,
     alt: "Frontpage of Lunch Hero website",
@@ -17,7 +27,7 @@ export const ProjectList = [
     details: "BaselHack 2023 project. This was a 48 hour hackathon where we were able to create a website that would allow users to just click a button and be matched up with someone else from the organization. This was a great experience because it was my first hackathon and I was able to work with a team of 9 other people. As one of two frontend developers, I worked with design to take wireframes from concept to code, and with backend to ensure the data was retrieved and displayed correctly.",
   },
   {
-    id: 1,
+    id: 2,
     name: "OverLoad",
     image: OverLoadhomepage,
     alt: "Frontpage of OverLoad website",
@@ -29,7 +39,7 @@ export const ProjectList = [
     link: "https://aacapstoneproj.onrender.com/"
   },
   {
-    id: 2,
+    id: 3,
     name: "Apocalypse Weather Now",
     image: AWNhomepage,
     alt: "Frontpage of AWN website",
@@ -41,7 +51,7 @@ export const ProjectList = [
     link: "https://awn-render.onrender.com/"
   },
   {
-    id: 3,
+    id: 4,
     name: "ErrBnB",
     image: errBnBwebsite,
     alt: "frontpage of ErrBnB website",
@@ -53,7 +63,7 @@ export const ProjectList = [
     link: "https://errbnb.onrender.com/"
   },
   {
-    id: 4,
+    id: 5,
     name: "flickr Clone",
     image: flickerClone,
     alt: "flicker website front page clone",
@@ -62,7 +72,7 @@ export const ProjectList = [
     details: 'This was a nose-dive into css! I had a lot of fun trying to figure out the differnet ways css worked, especially with itself. It was also challenging but made me realize that I really do like codinbg and figureing out how things works on a computer. It was a huge astonishment when I went back and looked at my first webpage too! Woo what a differnece.',
   },
   {
-    id: 5,
+    id: 6,
     name: "First Website",
     image: Firstwebsite,
     alt: "Picture of front page of my first website",
