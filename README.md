@@ -1,6 +1,6 @@
 # My Portfolio
 
-<!-- ![Portfolio Banner](link_to_your_image.png) -->
+To see the live version please visit [Portfolio](https://myportfolio-jonathanwofford.netlify.app/)
 
 ## Description
 
