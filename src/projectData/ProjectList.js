@@ -11,16 +11,18 @@ export const ProjectList = [
     id: 0,
     name: "ImpactPulse",
     image: HacknLead,
+    tag: "hackathon",
     alt: "Dashboard for ImpactPulse",
     skills:
-      "Javascript, React, MaterialUI, HTML, CSS",
+      "Javascript, React, MaterialUI, HTML, CSS, Vite",
     github: 'https://github.com/alexrollings/women_plusplus',
-    details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
+    details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype in less than 48 hours and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
   },
     {
     id: 1,
     name: "Lunch Hero",
     image: LunchHero,
+    tag: "hackathon",
     alt: "Frontpage of Lunch Hero website",
     skills:
       "Javascript, React, Redux, HTML, CSS, Node",
@@ -31,9 +33,10 @@ export const ProjectList = [
     id: 2,
     name: "OverLoad",
     image: OverLoadhomepage,
+    tag: "project",
     alt: "Frontpage of OverLoad website",
     skills:
-      "Javascript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
+      "Javascript, Typescript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/jwoff1991/OverLoad",
     details:
       "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. This was by far one of my favorite because I was able to build the full project on my own and it really helped me solidify a lot of the concept I have been taught throughout the course.",
@@ -43,6 +46,7 @@ export const ProjectList = [
     id: 3,
     name: "Apocalypse Weather Now",
     image: AWNhomepage,
+    tag: "project",
     alt: "Frontpage of AWN website",
     skills:
       "Javascript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
@@ -55,6 +59,7 @@ export const ProjectList = [
     id: 4,
     name: "ErrBnB",
     image: errBnBwebsite,
+    tag: "project",
     alt: "frontpage of ErrBnB website",
     skills:
       "Javascript, SQL, PostgreSQL, React, Redux, HTML, CSS, Node",
@@ -67,6 +72,7 @@ export const ProjectList = [
     id: 5,
     name: "flickr Clone",
     image: flickerClone,
+    tag: "project",
     alt: "flicker website front page clone",
     skills: "HTML/CSS",
     gitHub: "https://github.com/jwoff1991/flickr-clone",
@@ -76,6 +82,7 @@ export const ProjectList = [
     id: 6,
     name: "First Website",
     image: Firstwebsite,
+    tag: "project",
     alt: "Picture of front page of my first website",
     skills: "HTML, CSS",
     gitHub: "https://github.com/jwoff1991/firstwebsite",

@@ -1,20 +1,31 @@
 import ProjectItem from "./ProjectItem";
-import '../styles/Projects.css'
+import '../styles/Projects.css';
 import { ProjectList } from "../projectData/ProjectList";
 
 function Projects() {
-  const Projects = ProjectList.map((project) => {
+  const hackathons = ProjectList.filter(project => project.tag === "hackathon").map(project => (
+    <ProjectItem key={project.id} id={project.id} name={project.name} image={project.image} tag={project.tag} />
+  ));
 
-    return (
-      <ProjectItem  key={project.id} id={project.id} name={project.name} image={project.image}/>
-    )
-  })
-  console.log(Projects)
+  const regularProjects = ProjectList.filter(project => project.tag === "project").map(project => (
+    <ProjectItem key={project.id} id={project.id} name={project.name} image={project.image} tag={project.tag} />
+  ));
+
   return (
     <div className='projects'>
       <h1>My Personal Projects</h1>
-      <div className ='projectList'>
-        {Projects}
+      <div>
+        <h2>Hackathon Projects</h2>
+        <div className='projectList'>
+          {hackathons}
+        </div>
+      </div>
+
+      <div>
+        <h2>Projects</h2>
+        <div className='projectList'>
+          {regularProjects}
+        </div>
       </div>
     </div>
   );

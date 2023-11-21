@@ -36,6 +36,4 @@ Each project folder includes its own README with instructions on how to run or u
 
 This portfolio is a representation of my work. However, if you have suggestions, improvements, or find any issues in any of the projects, feel free to open an issue or create a pull request. Contributions are welcome!
 
-## License
 
-This portfolio is licensed under the MIT License License. See the [LICENSE](LICENSE) file for details.
