@@ -15,7 +15,7 @@ export const ProjectList = [
     alt: "Dashboard for ImpactPulse",
     skills:
       "Javascript, React, MaterialUI, HTML, CSS, Vite",
-    github: 'https://github.com/alexrollings/women_plusplus',
+    gitHub: 'https://github.com/alexrollings/women_plusplus',
     details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype in less than 48 hours and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
   },
     {
