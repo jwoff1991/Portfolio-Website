@@ -100,8 +100,9 @@ function Home() {
             Software Engineer.
           </p>
           <p>
-            Throughout this program, I've experienced substantial personal and
-            professional growth. I've encountered both the challenges and
+            Throughout this program and early in my career, I've experienced substantial
+            personal and professional growth. From numerous Hackathon winning projects to
+            migrating old projects,  I've encountered both the challenges and
             rewards of programming, learned best practices, mastered the art of
             researching new languages, and honed my teamwork skills. I've come
             to realize that I'm a natural problem solver, a collaborative team
