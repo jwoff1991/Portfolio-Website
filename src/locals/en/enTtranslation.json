@@ -1,0 +1,22 @@
+{
+    "home": {
+      "hello": "Hello, I'm John Wofford",
+      "softwareEngineer": "//Software Engineer",
+      "letsBuild": "Let's build something",
+      "words": {
+        "facinating": "fascinating",
+        "unique": "unique",
+        "inspiring": "inspiring",
+        "creative": "creative",
+        "together": "TOGETHER!"
+      }
+    },
+    "aboutMe": {
+        "title": "Who am I?",
+        "paragraph1": "I transitioned from tech recruiting to becoming a software engineer after earning my Marketing degree from Cal State Fullerton. Initially drawn to the tech sector, I discovered my passion for coding and wondered why I hadn't pursued it sooner.",
+        "paragraph2": "In early 2023, amidst widespread tech layoffs and a slowing market, my department, like many others, faced a similar situation. This turned out to be a blessing in disguise, igniting the motivation I needed to immediately enroll in a course to kickstart my career as a Software Engineer.",
+        "paragraph3": "Throughout this program and early in my career, I've experienced substantial personal and professional growth. From numerous Hackathon winning projects to migrating old projects, I've encountered both the challenges and rewards of programming, learned best practices, mastered the art of researching new languages, and honed my teamwork skills. I've come",
+        "together": "Lets get out there and build something TOGETHER!"
+        
+      }
+  }

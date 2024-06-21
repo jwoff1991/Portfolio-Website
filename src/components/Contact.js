@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import '../styles/contact.css'
 
 
@@ -10,9 +10,9 @@ function Contact() {
             Enjoyed my work? Have any questions? Just wanna connect? Feel free to reach out to me on any of the socials below:
             <br />
             <div className="contat-socials-div">
-            GitHub: <Link to='https://github.com/jwoff1991' target='_blank'>https://github.com/jwoff1991 </Link>
+            GitHub: <a to='https://github.com/jwoff1991' target='_blank'>https://github.com/jwoff1991 </a>
             <br />
-            LinkedIn: <Link to="https://www.linkedin.com/in/jonathanbwofford/" target="_blank">https://www.linkedin.com/in/jonathanbwofford/</Link>
+            LinkedIn: <a to="https://www.linkedin.com/in/johnbwofford/" target="_blank">https://www.linkedin.com/in/johnbwofford/</a>
             <br />
             Email:
             <br />

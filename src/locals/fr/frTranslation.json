@@ -1,0 +1,21 @@
+{
+    "home": {
+      "hello": "Bonjour, je suis John Wofford",
+      "softwareEngineer": "//Ingénieur Logiciel",
+      "letsBuild": "Construisons quelque chose",
+      "words": {
+        "facinating": "fascinant",
+        "unique": "unique",
+        "inspiring": "inspirant",
+        "creative": "créatif",
+        "together": "ENSEMBLE !"
+      }
+    },
+    "aboutMe": {
+        "title": "Qui suis-je ?",
+        "paragraph1": "Je suis passé du recrutement technologique à devenir ingénieur logiciel après avoir obtenu mon diplôme en Marketing de Cal State Fullerton. Initialement attiré par le secteur technologique, j'ai découvert ma passion pour la programmation et je me suis demandé pourquoi je ne l'avais pas poursuivie plus tôt.",
+        "paragraph2": "Début 2023, face aux licenciements massifs dans la tech et à un marché en ralentissement, mon département, comme beaucoup d'autres, a été confronté à une situation similaire. Cela s'est avéré être un mal pour un bien, allumant la motivation dont j'avais besoin pour m'inscrire immédiatement à un cours pour démarrer ma carrière d'ingénieur logiciel.",
+        "paragraph3": "Tout au long de ce programme et au début de ma carrière, j'ai connu une croissance personnelle et professionnelle substantielle. Des nombreux projets gagnants de Hackathon à la migration d'anciens projets, j'ai rencontré à la fois les défis et les récompenses de la programmation, appris les meilleures pratiques, maîtrisé l'art de rechercher de nouveaux langages et affiné mes compétences en travail d'équipe. Je suis venu",
+        "together" : "Sortons et construisons quelque chose ENSEMBLE !"
+      }
+  }
