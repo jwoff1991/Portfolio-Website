@@ -18,10 +18,6 @@ function ProjectDisplay({ image, name }) {
     );
   }
 
-    // const detailsParagraphs = project.details.split('\n').map((paragraph, index) => (
-  //   <p key={index} className="project-display-details">{paragraph}</p>
-  // ));
-
   return (
     <div className="project">
       <h1>{project.name}</h1>
@@ -43,7 +39,7 @@ function ProjectDisplay({ image, name }) {
         Languages used: {project.skills}
       </div>
       <div className="project-display-details-container">
-        Details:
+        About this project:
         <div className="project-display-details">{project.details}</div>
       </div>
     </div>

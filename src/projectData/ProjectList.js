@@ -48,7 +48,7 @@ export const ProjectList = [
     tag: "project",
     alt: "Frontpage of OverLoad website",
     skills:
-      "Javascript, Typescript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
+      "Typescript, Python, Flask, SQLAlchemy, PostgreSQL, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/jwoff1991/OverLoad",
     details:
       "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. This was by far one of my favorite because I was able to build the full project on my own and it really helped me solidify a lot of the concept I have been taught throughout the course.",

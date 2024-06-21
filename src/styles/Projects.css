@@ -14,11 +14,11 @@
   }
 
   .projectList {
-    width: 70vw;
-    height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid layout */
+    gap: 20px; /* Adjusts spacing between grid items */
+    justify-content: center; /* Centers grid items if they don't fill the entire width */
+    align-items: start; /* Aligns items to the start of the grid area */
   }
 
   /* MENU ITEM STYLING */
@@ -26,8 +26,8 @@
   .projectItem {
     border-radius: 15px;
     width: 300px;
-    height: 300px;
-    margin: 40px;
+    height: auto; /* Adjusts height based on content, or set a fixed height if preferred */
+    margin: 10px; /* Provides spacing around each item */
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
@@ -87,18 +87,23 @@
     }
   }
 
-  @media only screen and (max-width: 800px) {
+  @media (min-width: 975px) {
     .projectList {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Adjust number of columns as needed */
     }
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 675px) {
     .projectList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centers items horizontally */
+      align-items: center; /* Centers items vertically, might not be needed depending on your layout */
       width: 100%;
     }
     .projectItem {
       width: 300px;
       height: 300px;
+      margin: 10px; /* Adds some space around each item, adjust as needed */
     }
   }
