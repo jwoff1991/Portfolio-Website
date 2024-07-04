@@ -10,6 +10,16 @@ import DevPair from '../assets/devPairhomepage.png'
 export const ProjectList = [
   {
     id: 0,
+    name: "Expense Tracker - VueJS",
+    image: VueExpense,
+    alt: "Dashboard for Expense Tracker",
+    skills:
+      "VueJs, Vue Router, HTML, CSS",
+    github: 'https://github.com/jwoff1991/vue-expense-tracker',
+    details: "First project completed in a new freontend framework. A user is able to add/remove income/expenses and the UI updates the totals automatically based on the value amount.",
+  },
+  {
+    id: 1,
     name: "DevPair *WINNER*",
     image: DevPair,
     tag: "hackathon",
@@ -20,7 +30,7 @@ export const ProjectList = [
     details: "App Academy Winter Hackathon 2024 winners. Accessibility and how to help every access the internet was the focus of this hackathon. We decided as a team to help developers with social anxiety by creating a platform that would allow them to pair program with someone else without having to be in the same room. It was a great experience working with other graduates from the program. I was also able to solidify my sillks in Typoescript and help others that were less confident in the language.",
   },
   {
-    id: 1,
+    id: 2,
     name: "ImpactPulse *WINNER*",
     image: HacknLead,
     tag: "hackathon",
@@ -31,7 +41,7 @@ export const ProjectList = [
     details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype in less than 48 hours and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
   },
     {
-    id: 2,
+    id: 3,
     name: "Lunch Hero",
     image: LunchHero,
     tag: "hackathon",
@@ -42,7 +52,7 @@ export const ProjectList = [
     details: "BaselHack 2023 project. This was a 48 hour hackathon where we were able to create a website that would allow users to just click a button and be matched up with someone else from the organization. This was a great experience because it was my first hackathon and I was able to work with a team of 9 other people. As one of two frontend developers, I worked with design to take wireframes from concept to code, and with backend to ensure the data was retrieved and displayed correctly.",
   },
   {
-    id: 3,
+    id: 4,
     name: "OverLoad",
     image: OverLoadhomepage,
     tag: "project",
@@ -55,7 +65,7 @@ export const ProjectList = [
     link: "https://aacapstoneproj.onrender.com/"
   },
   {
-    id: 4,
+    id: 5,
     name: "Apocalypse Weather Now",
     image: AWNhomepage,
     tag: "project",
@@ -68,7 +78,7 @@ export const ProjectList = [
     link: "https://awn-render.onrender.com/"
   },
   {
-    id: 5,
+    id: 6,
     name: "ErrBnB",
     image: errBnBwebsite,
     tag: "project",
@@ -81,7 +91,7 @@ export const ProjectList = [
     link: "https://errbnb.onrender.com/"
   },
   {
-    id: 6,
+    id: 7,
     name: "flickr Clone",
     image: flickerClone,
     tag: "project",
@@ -91,7 +101,7 @@ export const ProjectList = [
     details: 'This was a nose-dive into css! I had a lot of fun trying to figure out the differnet ways css worked, especially with itself. It was also challenging but made me realize that I really do like codinbg and figureing out how things works on a computer. It was a huge astonishment when I went back and looked at my first webpage too! Woo what a differnece.',
   },
   {
-    id: 7,
+    id: 8,
     name: "First Website",
     image: Firstwebsite,
     tag: "project",
