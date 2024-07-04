@@ -44,12 +44,12 @@ export const ProjectList = [
   },
   {
     id: 3,
-    name: "Expense Tracker - VueJS",
+    name: "Expense Tracker",
     image: VueExpense,
     tag: "project",
     alt: "Dashboard for Expense Tracker",
     skills:
-      "VueJs, Vue Router, HTML, CSS",
+      "VueJs, HTML, CSS",
     github: 'https://github.com/jwoff1991/vue-expense-tracker',
     details: "First project completed in a new freontend framework. A user is able to add/remove income/expenses and the UI updates the totals automatically based on the value amount.",
   },
