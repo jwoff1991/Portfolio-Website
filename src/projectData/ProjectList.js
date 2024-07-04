@@ -6,7 +6,7 @@ import OverLoadhomepage from '../assets/overLoadhomepage.png.png'
 import LunchHero from '../assets/lunchHeroHomepage.png'
 import HacknLead from '../assets/actualImpactPulshDash.png'
 import DevPair from '../assets/devPairhomepage.png'
-import VueExpense from '../assets/vueExpense.png'
+import VueExpense from "../assets/vueExpenseTracker.png";
 
 export const ProjectList = [
   {

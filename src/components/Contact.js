@@ -10,9 +10,9 @@ function Contact() {
             Enjoyed my work? Have any questions? Just wanna connect? Feel free to reach out to me on any of the socials below:
             <br />
             <div className="contat-socials-div">
-            GitHub: <a to='https://github.com/jwoff1991' target='_blank'>https://github.com/jwoff1991 </a>
+            GitHub: <a href='https://www.github.com/jwoff1991' rel="noreferrer" target='_blank'>https://github.com/jwoff1991 </a>
             <br />
-            LinkedIn: <a to="https://www.linkedin.com/in/johnbwofford/" target="_blank">https://www.linkedin.com/in/johnbwofford/</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/johnbwofford/" rel="noreferrer" target="_blank">https://www.linkedin.com/in/johnbwofford/</a>
             <br />
             Email:
             <br />
