@@ -11,46 +11,47 @@ import VueExpense from "../assets/vueExpenseTracker.png";
 export const ProjectList = [
   {
     id: 0,
-    name: "Expense Tracker - VueJS",
-    image: VueExpense,
-    alt: "Dashboard for Expense Tracker",
-    skills:
-      "VueJs, Vue Router, HTML, CSS",
-    github: 'https://github.com/jwoff1991/vue-expense-tracker',
-    details: "First project completed in a new freontend framework. A user is able to add/remove income/expenses and the UI updates the totals automatically based on the value amount.",
-  },
-  {
-    id: 1,
     name: "DevPair *WINNER*",
     image: DevPair,
     tag: "hackathon",
     alt: "Dashboard for DevPair",
     skills:
-      "Typescript, React, HTML, CSS, Vite, Python, Flask, OpenCV, Agora-RTC ",
+    "Typescript, React, HTML, CSS, Vite, Python, Flask, OpenCV, Agora-RTC ",
     gitHub: 'https://github.com/alexrollings/women_plusplus',
     details: "App Academy Winter Hackathon 2024 winners. Accessibility and how to help every access the internet was the focus of this hackathon. We decided as a team to help developers with social anxiety by creating a platform that would allow them to pair program with someone else without having to be in the same room. It was a great experience working with other graduates from the program. I was also able to solidify my sillks in Typoescript and help others that were less confident in the language.",
   },
   {
-    id: 2,
+    id: 1,
     name: "ImpactPulse *WINNER*",
     image: HacknLead,
     tag: "hackathon",
     alt: "Dashboard for ImpactPulse",
     skills:
-      "Javascript, React, MaterialUI, HTML, CSS, Vite",
+    "Javascript, React, MaterialUI, HTML, CSS, Vite",
     gitHub: 'https://github.com/alexrollings/women_plusplus',
     details: "Hack'n'Lead 2023 challenge winners. We were tasked to create an app that was able to measure impact. As a team we developed a website that utilized an algorithm to measure impact based on the initative inputs and outputs. We were able to rapidly develop a working prototype in less than 48 hours and pitch our idea within two minuets. It was great to work closly with such an amazing group of individuals. As the solo web developer I took wireframe from cocept to reality and worked with the data scientists to display information in a way that was easy to understand.",
   },
-    {
-    id: 3,
+  {
+    id: 2,
     name: "Lunch Hero",
     image: LunchHero,
     tag: "hackathon",
     alt: "Frontpage of Lunch Hero website",
     skills:
-      "Javascript, React, Redux, HTML, CSS, Node",
+    "Javascript, React, Redux, HTML, CSS, Node",
     gitHub: "https://github.com/TobiasSchaeuble-EH/LunchHeroes",
     details: "BaselHack 2023 project. This was a 48 hour hackathon where we were able to create a website that would allow users to just click a button and be matched up with someone else from the organization. This was a great experience because it was my first hackathon and I was able to work with a team of 9 other people. As one of two frontend developers, I worked with design to take wireframes from concept to code, and with backend to ensure the data was retrieved and displayed correctly.",
+  },
+  {
+    id: 3,
+    name: "Expense Tracker - VueJS",
+    image: VueExpense,
+    tag: "project",
+    alt: "Dashboard for Expense Tracker",
+    skills:
+      "VueJs, Vue Router, HTML, CSS",
+    github: 'https://github.com/jwoff1991/vue-expense-tracker',
+    details: "First project completed in a new freontend framework. A user is able to add/remove income/expenses and the UI updates the totals automatically based on the value amount.",
   },
   {
     id: 4,

@@ -10,13 +10,13 @@ function ProjectDisplay({ image, name }) {
   const project = ProjectList[id];
 
   let externalLink;
-  if (project && project.link) {
+  project && project.link ?
     externalLink = (
       <Link to={project.link} name="Check out the live site!" target="_blank">
         <LanguageIcon />
       </Link>
-    );
-  }
+    ) : externalLink = null;
+
 
   return (
     <div className="project">
