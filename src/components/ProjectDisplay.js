@@ -5,17 +5,13 @@ import { Tooltip } from "@mui/material";
 import LanguageIcon from '@mui/icons-material/Language';
 import "../styles/projectItem.css";
 
-function ProjectDisplay({ image, name }) {
+function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
 
-  let externalLink;
-  project && project.link ?
-    externalLink = (
-      <Link to={project.link} name="Check out the live site!" target="_blank">
-        <LanguageIcon />
-      </Link>
-    ) : externalLink = null;
+  if (!project) {
+    return <div>Project not found.</div>;
+  }
 
 
   return (
@@ -33,7 +29,13 @@ function ProjectDisplay({ image, name }) {
             <GitHubIcon />
           </Tooltip>
         </Link>
-        <Tooltip title="Project Link">{externalLink}</Tooltip>
+        {project.link && (
+          <Tooltip title="Project Link">
+            <a href={project.link} aria-label="Check out the live site!" target="_blank" rel="noopener noreferrer">
+              <LanguageIcon />
+            </a>
+          </Tooltip>
+        )}
       </div>
       <div className="project-display-skills">
         Languages used: {project.skills}
