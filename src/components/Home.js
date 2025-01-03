@@ -94,21 +94,10 @@ function Home() {
             coding and wondered why I hadn't pursued it sooner.
           </p>
           <p>
-            In early 2023, amidst widespread tech layoffs and a slowing market,
-            my department, like many others, faced a similar situation. This
-            turned out to be a blessing in disguise, igniting the motivation I
-            needed to immediately enroll in a course to kickstart my career as a
-            Software Engineer.
+          Armed with a Bachelor of Applied Science in Computer Science from California State University, Fullerton, my journey has led me to Ronchi SA, where I apply my expertise in React, JavaScript, and Azure to develop critical applications. At Ronchi SA, we've tackled environmental challenges by creating an app that monitors and tracks invasive plant species during eradication, combining my passion for technology with ecological sustainability.
           </p>
           <p>
-            Throughout this program and early in my career, I've experienced substantial
-            personal and professional growth. From numerous Hackathon winning projects to
-            migrating old projects,  I've encountered both the challenges and
-            rewards of programming, learned best practices, mastered the art of
-            researching new languages, and honed my teamwork skills. I've come
-            to realize that I'm a natural problem solver, a collaborative team
-            player, and a creative force. I'm proud to say that I am a Software
-            Engineer.
+          My tenure as a Software Engineer extends to self-driven projects, where I've honed user-centric software applications, emphasizing performance optimization and security enhancements. This dedication to continuous improvement and stakeholder collaboration has been pivotal in my development process, allowing me to deliver intuitive solutions that balance technical prowess with user-friendly design.
           </p>
           <p>Lets get out there and build something TOGETHER!</p>
           <Link
