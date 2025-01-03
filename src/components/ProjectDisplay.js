@@ -3,7 +3,7 @@ import { ProjectList } from "../projectData/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 import LanguageIcon from '@mui/icons-material/Language';
-import "../styles/projectItem.css";
+import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -15,36 +15,45 @@ function ProjectDisplay() {
 
 
   return (
-    <div className="project">
-      <h1>{project.name}</h1>
-      <img className='project-image' src={project.image} alt={project.alt} />
-
-      <div className="project-display-links">
-        <Link
-          to={project.gitHub}
-          name="Check out my sourcode for this project!"
-          target="_blank"
-        >
-          <Tooltip title="Project Repo">
-            <GitHubIcon />
-          </Tooltip>
-        </Link>
-        {project.link && (
-          <Tooltip title="Project Link">
-            <a href={project.link} aria-label="Check out the live site!" target="_blank" rel="noopener noreferrer">
-              <LanguageIcon />
-            </a>
-          </Tooltip>
-        )}
-      </div>
-      <div className="project-display-skills">
-        Languages used: {project.skills}
-      </div>
-      <div className="project-display-details-container">
-        About this project:
-        <div className="project-display-details">{project.details}</div>
-      </div>
+<div className="project">
+  {/* Left Column */}
+  <div className="project-left">
+    <h1>{project.name}</h1>
+    <img className="project-image" src={project.image} alt={project.alt} />
+    <div className="project-display-links">
+      <Link to={project.gitHub} target="_blank">
+        <Tooltip title="Project Repo">
+          <GitHubIcon />
+        </Tooltip>
+      </Link>
+      {project.link && (
+        <Tooltip title="Project Link">
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LanguageIcon />
+          </a>
+        </Tooltip>
+      )}
     </div>
+  </div>
+
+  {/* Right Column */}
+  <div className="project-right">
+    <div className="project-display-details-container">
+      <h2>About this project:</h2>
+      <div>{project.details}</div>
+    </div>
+    <div className="project-display-skills">
+      {project.skills.split(",").map((skill) => (
+        <div className="project-skill" key={skill.trim()}>{skill.trim()}</div>
+      ))}
+    </div>
+  </div>
+</div>
+
   );
 }
 
