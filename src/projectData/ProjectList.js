@@ -64,7 +64,7 @@ export const ProjectList = [
     gitHub: "https://github.com/jwoff1991/OverLoad",
     details:
       "Fullstack solo Capstone project built in just over one week. This project includes 4 features: Articles, Comments, Like, and Reading Lists. This was by far one of my favorite because I was able to build the full project on my own and it really helped me solidify a lot of the concept I have been taught throughout the course.",
-    link: "https://aacapstoneproj.onrender.com/"
+    /*link: "https://aacapstoneproj.onrender.com/" */
   },
   {
     id: 5,
@@ -90,7 +90,7 @@ export const ProjectList = [
     gitHub: "https://github.com/jwoff1991/API-project-ErrBnB",
     details:
       "Fullstack solo project. This is my Airbnb clone, and was my first full project after learning about software engineering. It was challenging because everything seamed so fresh at the time. But I was able to go back and refactor a lot of the code for optimization and also add other features. Currently, you can Create, Book, and Review spots.  ",
-    link: "https://errbnb.onrender.com/"
+    /* link: "https://errbnb.onrender.com/" */
   },
   {
     id: 7,
