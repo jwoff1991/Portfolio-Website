@@ -30,7 +30,8 @@ function Home() {
           </div>
         </div>
         <div className="right-side-of-about">
-          <img src="images/johncode.png" alt="john yelling code" />
+          <img src="images/johncode.png" alt="john yelling code" style={{ filter: 'blur(10px)', transition: 'filter 0.3s ease' }}
+  onLoad={e => e.target.style.filter = 'none'}  />
         </div>
       </div>
       <div className="about-me-and-skills">
@@ -85,7 +86,7 @@ function Home() {
           <img src="images/skills.png" alt="skills" />
         </div>
         <div className="about-me">
-          Who am I?
+          <h2>Who am I?</h2>
           <p>
             I transitioned from tech recruiting to becoming a software engineer
             after earning my Marketing degree from Cal State Fullerton.
@@ -111,7 +112,7 @@ function Home() {
           </p>
           <p>Lets get out there and build something TOGETHER!</p>
           <Link
-            to="https://docs.google.com/document/d/e/2PACX-1vQkdh8XVHxCveXincec2iaGEO7Ww4kPvDDgu-Gx4de0SzZpbc8v2ohBsmDWdKR-XwLIzMzRcl9pmnBX/pub"
+            to="https://drive.google.com/file/d/1N8oLqmBuTymLlD7hZHRfdmexKKQJG75A/view?usp=sharing"
             target="_blank"
           >
             Resume
